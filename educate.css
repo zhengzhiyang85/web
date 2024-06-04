@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(bc3.jpg);
+}
+.header {
+    padding: 0;
+    text-align: center;
+}
+table {
+    border: thin solid black;
+    margin: 0 auto;
+    padding-top: 300px;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: azure;
+}
+
+table table th {
+    background-color: white;
+}
+  
+td, th {
+    border:  thin dotted gray;
+    padding: 5px;
+}
+  
+th {
+    background-color: #cc6600;
+}
+
+.cellcolor {
+    background-color: #fcba7a;
+}
+footer {
+    text-align: center;
+    background:#efe5d0 url(bc2.jpg);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}

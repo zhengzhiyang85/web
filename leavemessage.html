@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言</title>
+    <link rel="stylesheet" href="leavemessage.css">
+</head>
+<body>
+    <header class="main">
+        <h1>留言</h1>
+        <h2>请给出网页与我的评价和建议我会改正的</h2>
+        <form action="file:///C:/Users/86173/Desktop/webtest/main/index.html" method="post">
+        <div class="tableRow">
+            <p>
+              选择你的偏向
+            </p>
+            <p>
+                <select name="choose">
+                  <option value="批评">批评</option>
+                  <option value="建议">建议</option>
+                  <option value="赞许">赞许</option>
+                </select>
+            </p>
+        </div>
+        <div class="tableRow label">
+            <p> data : </p>
+            <p> <input type="date" name="date"> </p>
+        </div>
+        <div class="tableRow">
+            <p>你觉得我的网页怎么样：</p>
+            <p>
+                <input type="checkbox" name="extras[]" value="giftwrap">还不错<br>
+                <input type="checkbox" name="extras[]" value="catalog" checked>
+                烂透了
+            </p>
+        </div>
+        <div class="tableRow">
+            <p class="heading"> 主要信息 </p>
+            <p></p>
+        </div>
+        <div class="tableRow">
+            <p> 姓名: </p>
+            <p> <input type="text" name="name" value="" placeholder="张三" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> 国籍: </p>
+            <p> <input type="text" name="address" value="" placeholder="中国" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> 城市: </p>
+            <p> <input type="text" name="city" value="" placeholder="北京" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> 电话: </p>
+            <p> <input type="text" name="state" value="" placeholder="10086" required> </p>
+        </div>
+        <div class="tableRow">
+            <p> 留言: </p>
+            <p>
+                <textarea name="comments"></textarea>
+            </p>
+        </div>
+        <div class="tableRow">
+            <p></p>
+            <p> <input type="submit" value="立即提交"> </p>
+        </div>
+    </header>
+    <aside class="return">
+        <h1></h1>
+        <p><a href="index.html">我再想想</a></p>
+    </aside>
+    </form>
+</body>
+</html>

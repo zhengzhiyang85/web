@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #efe5d0 url(background.jpg);
+}
+.social {
+    padding: 15px;
+    text-align: center;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social li{
+    margin-bottom: 15px;
+}
+footer {
+    text-align: center;
+    background:#efe5d0 url(bc2.jpg);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
